@@ -1,0 +1,27 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "task1": "nodemon -L ./task1.1",
+    "task2": "nodemon -L ./task1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordGemma/node-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LordGemma/node-js/issues"
+  },
+  "homepage": "https://github.com/LordGemma/node-js#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
