@@ -1,9 +1,9 @@
-const { pipeline } = require("stream");
-const fs = require("fs");
-const csv = require("csvtojson");
+import { pipeline } from "stream";
+import fs from "fs";
+import csv from "csvtojson";
 
-const csvPath = "./task1.2/csv/file.csv";
-const txtPath = "./task1.2/csv/file.txt";
+const csvPath = "./task1/task1.2/csv/file.csv";
+const txtPath = "./task1/task1.2/csv/file.txt";
 
 pipeline(
   fs.createReadStream(csvPath, "utf-8"),
