@@ -9,5 +9,5 @@ export interface User {
 export interface UserData {
     login: string;
     password: string;
-    age: number;  
+    age: number;
 }
